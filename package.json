@@ -2,10 +2,11 @@
   "name": "keeper-app",
   "version": "1.0.0",
   "description": "",
+  "source": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "author": "",
   "license": "ISC",
